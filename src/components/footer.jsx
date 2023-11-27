@@ -1,18 +1,29 @@
 import React from "react";
 import "../styles/footer.css";
+// import tweiter from "@mui/icons-material/Twitter";
+// import icon from "@mui/icons-material/LinkedIn";
 
 //image and icons
-import logo from "../assets/logo.png";
+import logo from "../assets_all/logo.png";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Footer() {
   return (
     <div className="footer">
+       {/* <div className="footer">
       <img src={logo} alt="logo" width="150vw" style={{ marginTop: "4rem" }} />
       <ul className="footer-options">
         <a
-          href="https://ntwist.com/ntwist-cloned-4582/"
+          href=
+          style={{ textDecoration: "none" }}
+        >
+          <li className="option">Home</li>
+        </a> */}
+      <img src={logo} alt="logo" width="150vw" style={{ marginTop: "4rem" }} />
+      <ul className="footer-options">
+        <a
+          href=" "
           style={{ textDecoration: "none" }}
         >
           <li className="option">Home</li>

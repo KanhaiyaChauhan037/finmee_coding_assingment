@@ -1,8 +1,8 @@
-//import all images
-import mtm from "../assets/mtm.jpeg";
-import sust from "../assets/sust.jpeg";
-import mp from "../assets/mp.jpeg";
-import og from "../assets/og.png";
+
+import mtm from "../assets_all/mtm.jpeg";
+import sust from "../assets_all/sust.jpeg";
+import mp from "../assets_all/mp.jpeg";
+import og from "../assets_all/og.png";
 
 export const industries_description = [
   {
